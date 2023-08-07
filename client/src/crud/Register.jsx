@@ -177,15 +177,15 @@ const Register = () => {
             cols="30"
             rows="10"
           ></textarea>
-          <button
-            to="/Users"
-            type="submit"
-            onClick={addindata}
-            className="btn btn-primary mt-3 bg-green-800"
-          >
-            Submit
-          </button>
         </div>
+        <button
+          to="/Users"
+          type="submit"
+          onClick={addindata}
+          className="btn btn-primary mt-4 bg-green-800"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
