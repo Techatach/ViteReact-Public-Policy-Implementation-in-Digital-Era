@@ -115,7 +115,7 @@ const Register = () => {
               Email
             </label>
             <input
-              type="text"
+              type="email"
               value={inpval.email}
               onChange={setData}
               name="email"
