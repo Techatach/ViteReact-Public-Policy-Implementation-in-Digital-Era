@@ -173,7 +173,7 @@ const Register = () => {
             onChange={setData}
             name="desc"
             className="form-control mt-2"
-            id=""
+            id="desc"
             cols="30"
             rows="10"
           ></textarea>
