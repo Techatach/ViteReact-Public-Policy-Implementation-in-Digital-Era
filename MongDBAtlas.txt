@@ -1,0 +1,18 @@
+//MongoDB Atlas
+Database name: mernstack
+Collection name: uers 
+DATABASE = "mongodb+srv://techatach:FRgky1iwj2Xbm8ml@cluster0.djc3agv.mongodb.net/mernstack?retryWrites=true&w=majority"
+
+//postman
+crudapp
+POST registerdata
+GET getuserdata
+GET getindividualuser
+DEL getdelete
+
+//แก้ไขเปลี่ยนใหม่ Password
+Database name: NationCrud
+Collection name: NationTable
+Username: teachatach
+Password: techa$2566
+mongodb+srv://techatach:techa$2566@cluster0.djc3agv.mongodb.net/NationCrud?retryWrites=true&w=majority
