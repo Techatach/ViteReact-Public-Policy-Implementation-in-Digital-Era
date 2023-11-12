@@ -9,6 +9,10 @@ import Register from "./crud/Register";
 import Edit from "./crud/Edit";
 import Details from "./crud/Details";
 import Footer from "./components/Footer";
+import Team from "./components/Team";
+import Testimonial from "./components/Testimonial";
+import Contact from "./components/Contact";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/view/:id" element={<Details />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </div>

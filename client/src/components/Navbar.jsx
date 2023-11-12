@@ -31,16 +31,16 @@ const Navbar = () => {
                 <Link to="/view/:id">เทคโนโลยี</Link>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="/main">บริการ</a>
+                <a href="/team">บริการ</a>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">Portfolio</a>
+                <a href="/testimonial">Portfolio</a>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li className="text-slate-50 hover:text-white hover:bg-blue-600 mx-4 my-1 border-2 border-blue-600 px-2 rounded-2xl ">
-                <a href="#">LogIn</a>
+                <a href="/login">LogIn</a>
               </li>
               <li className="text-white bg-blue-600 px-2 rounded-2xl mx-4 my-1 hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-600">
                 <a href="#">SignUp</a>
