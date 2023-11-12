@@ -12,7 +12,7 @@ const Testimonial = () => {
           <div class="flex flex-col items-center justify-evenly my-12 lg:px-10 lg:flex-row space-y-8 lg:space-y-0 ">
             <div class="flex flex-col justify-center items-center p-10 bg-white shadow w-[90%] md:w-[70%] lg:w-[30%] overflow-hidden">
               <div class="  "></div>
-              <div class="flex flex-col -mt-20 -mr-[352px] hidden xl:block">
+              <div class="d-flex flex-col -mt-20 -mr-[352px] hidden xl:block">
                 <div class="w-2 h-14 bg-blue-900"></div>
                 <div class="w-2 h-14 bg-green-500"></div>
               </div>
@@ -30,7 +30,7 @@ const Testimonial = () => {
                 class="rounded-full mt-4"
                 alt=""
               />
-              <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
+              <div class="d-flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                 <div class="w-2 h-14 bg-blue-900"></div>
                 <div class="w-2 h-14 bg-green-500"></div>
               </div>
@@ -43,7 +43,7 @@ const Testimonial = () => {
             </div>
             <div class="flex flex-col justify-center items-center p-10 bg-white shadow w-[90%] md:w-[70%] lg:w-[30%] overflow-hidden">
               <div class="  "></div>
-              <div class="flex flex-col -mt-20 -mr-[352px] hidden xl:block">
+              <div class="d-flex flex-col -mt-20 -mr-[352px] hidden xl:block">
                 <div class="w-2 h-14 bg-blue-900"></div>
                 <div class="w-2 h-14 bg-green-500"></div>
               </div>
@@ -61,7 +61,7 @@ const Testimonial = () => {
                 class="rounded-full mt-4"
                 alt=""
               />
-              <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
+              <div class="d-flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                 <div class="w-2 h-14 bg-blue-900"></div>
                 <div class="w-2 h-14 bg-green-500"></div>
               </div>
@@ -74,7 +74,7 @@ const Testimonial = () => {
             </div>
             <div class="flex flex-col justify-center items-center p-10 bg-white shadow w-[90%]  md:w-[70%] lg:w-[30%] overflow-hidden">
               <div class="  "></div>
-              <div class="flex flex-col -mt-20 -mr-[352px] hidden xl:block">
+              <div class="d-flex flex-col -mt-20 -mr-[352px] hidden xl:block">
                 <div class="w-2 h-14 bg-blue-900"></div>
                 <div class="w-2 h-14 bg-green-500"></div>
               </div>
@@ -92,7 +92,7 @@ const Testimonial = () => {
                 class="rounded-full mt-4"
                 alt=""
               />
-              <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
+              <div class="d-flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                 <div class="w-2 h-14 bg-blue-900"></div>
                 <div class="w-2 h-14 bg-green-500"></div>
               </div>
