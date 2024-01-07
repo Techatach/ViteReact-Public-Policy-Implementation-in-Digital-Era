@@ -13,13 +13,18 @@ import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
+import About from "./components/About";
+import Page from "./components/Page";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Users />} />
+        <Route path="/" element={<Page />} />
+        <Route path="/user" element={<Users />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/testimo" element={<Testimonial />} />
         <Route path="/register" element={<Register />} />
         <Route path="/edit/:id" element={<Edit />} />
         <Route path="/view/:id" element={<Details />} />

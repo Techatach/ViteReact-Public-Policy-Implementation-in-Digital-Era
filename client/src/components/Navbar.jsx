@@ -20,15 +20,17 @@ const Navbar = () => {
               <li className="text-white hover:text-red-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/">หน้าหลัก</a>
               </li>
+              <li className="text-white hover:text-red-600 hover:font-bold font-medium mx-4 my-1">
+                <a href="/user">การประเมินผล</a>
+              </li>
 
               <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="/register">เกี่ยวกับ</a>
-              </li>
-              <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="/updateuser/:id">ติดต่อ</a>
+                {/* <a href="/register">เกี่ยวกับ</a> */}
+                <a href="about">เกี่ยวกับ</a>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <Link to="/view/:id">เทคโนโลยี</Link>
+                {/* <Link to="/view/:id">เทคโนโลยี</Link> */}
+                <Link to="/testimo">เทคโนโลยี</Link>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/team">บริการ</a>
