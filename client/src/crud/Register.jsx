@@ -61,7 +61,7 @@ const Register = () => {
   return (
     <div className="container">
       <div className="mt-4">
-        <NavLink to="/">
+        <NavLink to="/user">
           <button className="btn btn-success">
             <HomeIcon />
           </button>
@@ -179,7 +179,7 @@ const Register = () => {
           ></textarea>
         </div>
         <button
-          to="/Users"
+          to="Users"
           type="submit"
           onClick={addindata}
           className="btn btn-primary mt-4 bg-green-800"

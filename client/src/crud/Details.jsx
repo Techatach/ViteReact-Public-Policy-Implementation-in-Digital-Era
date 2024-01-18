@@ -68,7 +68,7 @@ const Details = () => {
       <Card sx={{ maxWidth: 900 }}>
         <CardContent>
           <div className="d-flex justify-content-center add_btn">
-            <NavLink to="/" className="d-flex justify-content-center">
+            <NavLink to="/user" className="d-flex justify-content-center">
               <button className="btn btn-success">
                 <HomeIcon />
               </button>

@@ -84,12 +84,12 @@ const Users = () => {
                   <td>{element.result}</td>
                   <td>{element.desc}</td>
                   <td className="d-flex justify-content-between">
-                    <NavLink to={`view/${element._id}`}>
+                    <NavLink to={`/view/${element._id}`}>
                       <button className="btn btn-success">
                         <RemoveRedEyeIcon />
                       </button>
                     </NavLink>
-                    <NavLink to={`edit/${element._id}`}>
+                    <NavLink to={`/edit/${element._id}`}>
                       <button className="btn btn-primary">
                         <CreateIcon />
                       </button>

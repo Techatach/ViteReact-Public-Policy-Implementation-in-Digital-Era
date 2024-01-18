@@ -86,7 +86,7 @@ const Edit = () => {
     <div>
       <div className="container">
         <div className="mt-4">
-          <NavLink to="/">
+          <NavLink to="/user">
             <button className="btn btn-success">
               <HomeIcon />
             </button>
