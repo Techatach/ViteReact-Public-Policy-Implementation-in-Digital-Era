@@ -25,8 +25,8 @@ const Navbar = () => {
               </li>
 
               <li className="text-white hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="/register">กรอกข้อมูล</a>
-                {/* <a href="/about">เกี่ยวกับ</a> */}
+                {/* <a href="/register">กรอกข้อมูล</a> */}
+                <a href="/about">เกี่ยวกับ</a>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 {/* <Link to="/view/:id">เทคโนโลยี</Link> */}
@@ -36,8 +36,8 @@ const Navbar = () => {
                 <a href="/team">บริการ</a>
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                {/* <a href="/testimonial">Portfolio</a> */}
-                <a href="/edit/:id">Portfolio</a>
+                <a href="/testimonial">Portfolio</a>
+                {/* <a href="/edit/:id">Portfolio</a> */}
               </li>
               <li className="text-slate-50 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/contact">Contact</a>
